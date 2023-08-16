@@ -1,0 +1,17 @@
+.footer__container {
+    background-image: url("../images/footer/Footer.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 100px;
+}
+
+@media screen and (min-width: 1024px) {
+    .footer__container{
+        background-image: url("../images/footer/Footer.svg");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        width: 100%;
+        height: 100px;
+    }
+}

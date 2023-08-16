@@ -1,0 +1,82 @@
+.cabecalho__menu {
+    width: 20px;
+    height: 20px;
+    background-image: url("../images/Menu.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+}
+
+.cabecalho {
+    background-color: var(--white);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.icone__size {
+    width: 30px;
+    height: 30px;
+}
+
+.container,
+.container-direita {
+    display: flex;
+    align-items: center;
+}
+
+.container__imagem {
+    padding: 1em;
+}
+
+.link__cabecalho {
+    padding: 1em;
+}
+
+.lista-menu {
+    display: none;
+    position: absolute;
+    top: 100%
+}
+
+.container__botao:checked ~ .lista-menu {
+    display: block;
+}
+
+.lista-menu__titulo, .lista-menu__item {
+    padding: 1em;
+    background-color: var(--white);
+}
+
+.lista-menu__titulo {
+    color: var(--amarelo);
+    font-weight: 600;
+}
+
+.lista-menu__link,
+.link__cabecalho {
+    color: var(--azul-mais-escuro);
+    text-decoration: none;
+    font-size: 10px;
+}
+
+.lista-menu__link {
+    font-weight: 500;
+}
+
+.container__botao {
+    display: none;
+}
+
+.container-direita {
+    background-image: url("../images/Rectangle45.svg");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+}
+
+
+/* @media screen and (min-width: 1024px) {
+    
+} */
